@@ -1,0 +1,130 @@
+package Examen;
+import javax.swing.JOptionPane;
+
+
+
+public class examen {
+
+    public static void main(String[] args) {
+     String a,b,c,d;
+     int a1,b1,c1,d1,op1,op2,op3,op4;
+   int aux1,aux2,aux3,aux4;  
+    JOptionPane.showMessageDialog(null,"PROGRAMA EXAMEN\n INGRESE LAS 4 NOTAS");
+    a=JOptionPane.showInputDialog("NOTA 1");
+   a1=Integer.parseInt(a);
+   
+   
+    b=JOptionPane.showInputDialog("NOTA 2");
+   b1=Integer.parseInt(b);
+   
+   
+    c=JOptionPane.showInputDialog("NOTA 3");
+   c1=Integer.parseInt(c);
+   
+   
+    d=JOptionPane.showInputDialog("NOTA 4");
+   d1=Integer.parseInt(d);
+   
+     JOptionPane.showMessageDialog(null,"LAS NOTAS INGRESADAS SON:\n"+"NOTA 1:  "+a1+"\n"+"NOTA 2:  "+b1+"\n"+"NOTA 3:  "+c1+"\n"+"NOTA 4:  "+d1);
+    
+ if(a1>c1 && a1>b1 && a1>d1){
+     aux1=a1;
+     if(b1>c1 && b1>d1){////////////////////
+         aux2=b1; 
+     if(d1<c1){
+     aux3=d1;
+     aux4=c1;
+     }
+     if(c1<d1){
+     aux3=c1;
+     aux4=d1; 
+     }
+     }/////////////////
+     
+     if(c1>b1 && c1>d1){
+         aux2=c1; 
+     if(b1<d1){
+     aux3=b1;
+     aux4=d1;
+     }
+     if(d1<b1){
+     aux3=d1;
+     aux4=b1; 
+     }
+     
+     }
+     if(d1>b1 && d1>c1){
+         aux2=d1;
+     if(b1>c1){aux3=b1 aux}
+     }
+     
+  }/////FIN DEL PRIMER IF
+ if(b1>c1 && b1>a1 && b1>d1){
+     aux1=b1;
+     if(c1>a1 && c1>d1){
+         aux2=c1; 
+     if(d1<a1){
+     aux3=d1;
+     aux4=a1;
+     }
+     if(a1<d1){
+     aux3=a1;
+     aux4=d1; 
+     }
+     }
+     if(a1>c1 && a1>d1){
+         aux2=a1; 
+     if(c1<d1){
+     aux3=c1;
+     aux4=d1;
+     }
+     if(d1<c1){
+     aux3=d1;
+     aux4=c1; 
+     }
+     
+     }
+ }////FDJLSKJFKJSDLKJFKJDSLKFJDLKSJFLKDSJLKFJLKSDJFLJSDLKFJKSDJ
+ if(c1>a1 && c1>b1 && c1>d1){
+     aux1=c1;
+      if(b1>c1 && b1>d1){
+         aux2=b1; 
+     if(d1<c1){
+     aux3=d1;
+     aux4=c1;
+     }
+     if(c1<d1){
+     aux3=c1;
+     aux4=d1; 
+     }
+     }
+     if(c1>b1 && c1>d1){
+         aux2=c1; 
+     if(b1<d1){
+     aux3=b1;
+     aux4=d1;
+     }
+     if(d1<b1){
+     aux3=d1;
+     aux4=b1; 
+     }
+     
+     }
+     if(d1>b1 && d1>c1){aux2=d1; }
+     
+     
+  }///FIN DE SIGUSDFJLSJDFLKSDJFLÑJLÑDKSJfjLKDJFÑDSJFÑLJFDLÑSJFÑJDSLÑKFj
+ if(d1>c1 && d1>a1 && d1>b1){
+     aux1=d1;
+  }
+ 
+
+ 
+  
+ 
+ 
+ 
+        
+    }
+    
+}
